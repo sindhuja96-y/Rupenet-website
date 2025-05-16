@@ -1,0 +1,110 @@
+/* footer.css */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.footer {
+  background-color: #f3f3f5;
+}
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-section {
+  margin-bottom: 1.5rem;
+}
+.footer-section p {
+  font-size: small;
+  color: #595959;
+}
+.logo {
+  margin-bottom: 1rem;
+  margin-top: 40px;
+  width: 200px;
+  height: auto;
+}
+
+.text {
+  color: #595959;
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input-email {
+  width: 100%;
+  padding: 1rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.subscribe-button {
+  position: absolute;
+  right: 3px;
+  top: 4;
+  margin: 0.25rem;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+}
+
+.privacy-policy {
+  color: #000;
+  text-decoration: underline 2px solid;
+}
+
+.title {
+  font-size: medium;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 0.5rem;
+}
+
+.links a {
+  color: #595959;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  margin-left: 10px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.social-icons {
+  margin-right: 10px;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.25rem;
+}

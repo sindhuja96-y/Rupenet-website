@@ -1,0 +1,31 @@
+.secprivacypolicy {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.privacypolicy{
+    max-width: 1200px !important;
+}
+.privacypolicy h1 {
+  font-size: 2.5rem;
+  color: #14183e;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+.privacypolicy p {
+  color: #5e6282;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.privacypolicy h3 {
+  color: #14183e;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 1.75rem;
+}

@@ -1,0 +1,99 @@
+/* Aboutus.css */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+.text-img {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding-top: 40px !important;
+  padding-bottom: 70px !important;
+  background-image: url(Assets/Group595.png);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 70% 39%;
+}
+.bg-grey {
+  background-image: url(Assets/grid.png);
+  background-size:  cover;
+  background-position:  center;
+  background-repeat:  no-repeat;
+  margin-top: 50px;
+}
+
+.section-text h2 {
+  font-size: 3rem;
+  color: rgb(4, 4, 95);
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.section-text h1 {
+  font-size: 4rem;
+  color: rgb(4, 4, 95);
+  line-height: 1.2;
+  font-weight: 800;
+}
+.section-text h4{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.section-text span {
+  color: #007bff;
+}
+.left-content img {
+  max-width: 450px;
+  height: 450px;
+}
+
+.right-content h6 {
+  color: #5e6282;
+  line-height: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.dtext-img {
+  padding-top: 40px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+.right-contentd img {
+  max-width: 100%;
+  height: 300px;
+}
+.left-contentd img {
+  max-width: 100%;
+  height: 300px;
+}
+.left-contentd h5 {
+  padding: 50px 0 50px 150px;
+}
+.right-contentd h5 {
+  padding: 50px 0 50px 130px;
+}
+.right-contentd h6 {
+  padding: 30px 0 80px 0;
+  color: #5e6282;
+}
+.left-contentd h6 {
+  color: #5e6282;
+  padding: 30px 0 80px 0;
+}
+.join-us{
+  width: max-content !important;
+}

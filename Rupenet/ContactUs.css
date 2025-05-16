@@ -1,0 +1,87 @@
+body {
+  background: #f5f7fa;
+  font-family: "Manrope", sans-serif !important;
+}
+.contact-popup {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+}
+.contact-popup h2 {
+  color: #181e4b;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+.contact-popup h2 span {
+  color: #007bff;
+}
+.contact-popup label {
+  color: #181e4b;
+  font-size: large;
+  font-weight: 700;
+}
+.form-control {
+  background: #eef5ff;
+  border: none;
+  height: 45px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #007bff;
+}
+.dropdown-toggle {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.contact-popup .dropdown {
+  background: #007bff;
+  color: white;
+  font-weight: 800;
+  border: none;
+  padding: 4px 0px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.dropdown-menu {
+  width: 100%;
+}
+.checkbox-label {
+  font-size: 14px;
+}
+
+.contact-popup .btn-primary {
+  width: 30%;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #007bff;
+  border: none;
+}
+.btn-primary:hover {
+  background: #0056b3;
+}
+.privacy-text {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+.privacy-text a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.join-us{
+  width: max-content !important;
+}

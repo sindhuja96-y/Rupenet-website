@@ -1,0 +1,99 @@
+/* navbar.css */
+body {
+  font-family: "poppins", sans-serif !important;
+}
+.navlogo {
+  margin-left: 4rem;
+}
+.nav-link {
+  color: #2e2e2e !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  color: #000000 !important;
+}
+.navbar button {
+  padding: 4px 20px 4px 20px !important;
+  background-color: #007aff;
+  margin-left: 10px !important;
+  margin-top: 3px;
+}
+.navbar {
+  background-image: url("Assets/Group593.png");
+  background-size: contain;
+  background-position: 100% 50%;
+  background-repeat: no-repeat;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background: #fff;
+}
+.navbar-collapse{
+  padding-top: 8px;
+  padding-left: 40px;
+}
+
+
+
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+  margin: 0 5px !important;
+}
+
+.navbar .navbar-nav .nav-item::before,
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 0px solid var(--bs-primary);
+  transition: 0.5s;
+}
+
+.navbar .navbar-nav .nav-item::before {
+  top: 0;
+  left: 0;
+}
+.navbar .navbar-nav .nav-item::after {
+  bottom: 0;
+  right: 0;
+}
+
+.navbar .navbar-nav .nav-item:hover::after,
+.navbar .navbar-nav .nav-item:hover::before,
+.navbar .navbar-nav .nav-item.active::after,
+.navbar .navbar-nav .nav-item.active::before {
+  width: 100%;
+  border-width: 1px;
+}
+
+.dropdown-menu{
+  display: block !important;
+  visibility: visible;
+  top: 100%;
+  transform: rotateX(-75deg);
+  transform-origin: 0% 0%;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 20px !important;
+  transition: .5s;
+  opacity: 0;
+  z-index: 9;
+  width: unset;
+  font-family: "Poppins", sans-serif;
+ 
+}
+
+
+.dropdown-menu.show{
+  transform: rotateX(0deg) !important;
+  visibility: visible;
+  margin-top: 20px !important;
+  transition: .5s;
+  opacity: 1;
+  width: unset;
+}
