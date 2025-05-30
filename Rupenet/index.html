@@ -6,23 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="index_v2.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="whatweoffer.css">
-<link rel="stylesheet" href="aiml.css"> 
-<link rel="stylesheet" href="ftts.css">
-<link rel="stylesheet" href="finx.css">
+  <link rel="stylesheet" href="aiml.css">
+  <link rel="stylesheet" href="ftts.css">
+  <link rel="stylesheet" href="finx.css">
   <link rel="icon" type="image/png" href="Assets/rnet.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
   <title>Rupenet Technology Solutions Pvt Ltd :: Instant Money Transfer :: AEPS :: IMPS Index</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
 </head>
 
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
       aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -31,7 +39,7 @@
     <div id="navlogo" class="navlogo">
       <span>
         <a href="index.html">
-        <img id="img_logo" src="Assets/logo.png" alt="RNet Icon" height="50px" class="rnet-icon" />
+          <img id="img_logo" src="Assets/logo.png" alt="RNet Icon" height="50px" class="rnet-icon" />
         </a>
       </span>
     </div>
@@ -42,6 +50,16 @@
           <a class="nav-link" href="index.html">Why Us</a>
         </li>
         <li class="nav-item dropdown mx-3">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Our products
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="finx.html">Rupenet payment service</a></li>
+            <li><a class="dropdown-item" href="finx.html">FINX</a></li>
+          </ul>
+        </li>
+        <!-- <li class="nav-item dropdown mx-3">
           <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             What We Offer
@@ -72,10 +90,10 @@
             <li><a class="dropdown-item" href="finx.html">Insurance</a></li>
             <li><a class="dropdown-item" href="aiml.html">AI/ML</a></li>
           </ul>
-        </li>
+        </li> -->
         <li class="nav-item dropdown mx-3">
           <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">AboutUs</a>
+            aria-expanded="false">AboutUs</a>
 
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href=""> Vision & Mission</a></li>
@@ -85,479 +103,242 @@
         <li class="nav-item dropdown mx-3">
           <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
-           Join Us
+            Join Us
           </a>
-        <ul class="dropdown-menu join-us" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="">Onboarding Partner</a></li>
-          <li><a class="dropdown-item" href=""> Merchant partner</a></li>
-          <li><a class="dropdown-item" href="">Career</a></li>
-        </ul>
-      </li>
+          <ul class="dropdown-menu join-us" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="">Onboarding Partner</a></li>
+            <li><a class="dropdown-item" href=""> Merchant partner</a></li>
+            <li><a class="dropdown-item" href="">Career</a></li>
+          </ul>
+        </li>
 
-        <li class="nav-item mx-3">
+        <li class="mx-3">
           <button class="btn btn-primary" type="button" onclick="window.location.href='https://indiapay.rupenet.com';">
             Sign in
           </button>
         </li>
+
       </ul>
     </div>
   </nav>
+  <!-- Hero 5 - Bootstrap Brain Component -->
+  <section class="bsb-hero-5 px-3 bsb-overlay" style="background-image: url('../Assets/front image.jpg');">
+    <div class="container">
+      <div class="row justify-content-md-center align-items-center">
+        <div class="col-12 col-md-12">
+          <h1 class="text-white text-center fw-bold mb-4 wow slideInLeft" data-wow-delay="1s">Empowering Bharat with
+            Financial Technology & AI</h1>
+          <p class="lead text-white text-center mb-5 d-flex justify-content-sm-center wow slideInRight"
+            data-wow-delay="1s">
+            <span class="col-12 col-sm-10 col-md-8 col-xxl-7 ">Rural Banking. Voice Automation. One Platform!</span><br>
+          <div class="banner-buttons">
+            <button class="btn payment-service-btn wow slideInLeft" data-wow-delay=".1s">Explore Payment
+              Services</button>
+            <button class="btn finx-btn fin-icon wow slideInRight" data-wow-delay=".1s">See FINX in Action</button>
 
-  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="2500">
-    
-    <!-- Slides -->
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-          <section class="dot-bg" style="padding-bottom: 40px;">
-            <section class="group597">
-              <div class="container text-img4">
-                <div class="section-text4">
-                  <h2 style="margin-bottom: 0px;">Retail Payments Services</span></h2>
-                  <h2 style="margin-bottom: 0px;">Seamless <span>Transactions,</span></h2>
-                  <h2>Anytime, Anywhere</h2>
-                </div>
-              </div>
-            </section>
-            <div>
-              <!-- Money Transfer -->
-              <div class="row mb-4 group597">
-                <div class="col-md-1"></div>
-        
-                <!-- First Image (Higher) -->
-                <div class="col-md-6 text-center">
-                  <div class="flow-step">
-                    <span class="badge-label">Money sent to <br>your family</span>
-                    <img src="Assets/mobile.jpeg" alt="Money Transfer">
-                    <span class="step-title">Money Transfer</span>
-                  </div>
-                </div>
-        
-                <!-- Second Image (Lower) -->
-                <div class="col-md-5 d-flex justify-content-start">
-                  <div class="vector29" style="margin-top: 170px;">
-                    <img src="Assets/Vector 29.png" alt="vector29">
-                  </div>
-                </div>
-              </div>
-        
-              <!-- Bill Payment -->
-              <div class="row mt-4">
-                <div class="col-md-4"></div>
-                <div class="col-md-6 text-center">
-                  <div class="flow-step">
-                    <span class="badge-lab1">Bill payments <br> via QR scan</span>
-                    <img src="Assets/upi.jpeg" alt="Bill Payment">
-                    <span class="step-title1">Bill </br>Payment</span>
-                  </div>
-                </div>
-                <div class="col-md-2"></div>
-              </div>
-        
-              <!-- Mini ATM -->
-              <div class="row mini-atm mt-4">
-                <div class="col-md-1"></div>
-        
-                <!-- First Image (Lower) -->
-                <div class="col-md-6 text-center d-flex align-items-end">
-                  <div class="flow-step" style="margin-top: 40px;">
-                    <span class="badge-label">New era of <br> Payment</span>
-                    <img src="Assets/creditcard.jpeg" alt="Mini ATM">
-                    <span class="step-title">Mini ATM</span>
-                  </div>
-                </div>
-        
-                <!-- Second Image (Higher) -->
-                <div class="col-md-5 d-flex align-items-start">
-                  <div class="vector30">
-                    <img src="Assets/Vector 30.png" alt="vector30">
-                  </div>
-                </div>
-              </div>     
-            </div>
-          </section>
-        </div>
-        <div class="carousel-item">
-          <div class="dot-bg1">
-            <div class="section-bg">
-                <div class="row align-items-start" style="--bs-gutter-x: 0rem;">
-                    <div class="col-md-6 mb-4 mb-md-0 text-section6">
-                        <h1>
-                            Rupenet: Driving </br>Innovation with<span> Finx</br> Next-Gen </span>Technology </br>Solutions
-                        </h1>
-                        <p>
-                            Rupenet is not just a fintech provider; we are a technology company at our</br> core. Our Finx
-                            Gen
-                            AI
-                            platform enables businesses to build, customize, and deploy</br> AI/ML- driven solutions,
-                            transforming
-                            the way they operate. From Banking and </br> Financial Services to E-Commerce and Logistics, we
-                            empower enterprises </br> to innovate, scale, and lead in a digital-first world.
-                        </p>
-                        <button class="btn btn-primary" onclick="window.location.href='ContactUs.html'">Reach Out Us Now
-                            →</button>
-                    </div>
-                    <div class="col-md-6 position-relative group596" style="padding-top: 25px;">
-                        <span class="badge-label1">AI</span>
-                        <img src="Assets/aiml2.jpeg" alt="Ai/ml" class="img-fluid6">
-                        <span class="right-badge">ML</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="carousel-item">
-          <section id="index">
-            <div class="dot-bg">
-              <div class="row happy align-items-start">
-                <!-- Combine Text & Main Image in col-md-6 -->
-                <div class="col-md-6 d-flex align-items-center">
-                  <div class="text-section custom-space" style="padding-top: 35px;">
-                    <h1>
-                      Unlock Access to </br><span>Affordable</span> Loans
-                      </br>with
-                      <img src="Assets/ftts.png" alt="ftts">
-                    </h1>
-                    <p>
-                      Rupenet’s FTTS (Financial Transaction Turbo System) powers our comprehensive microfinance solutions,
-                      enabling seamless API integration with Loan Management Systems (LMS), Loan Origination Systems (LOS), and
-                      Core Banking Systems (CBS). With FTTS, financial institutions can digitize loan processes, automate
-                      customer
-                      interactions, and ensure real-time data synchronization for a superior lending experience.
-                    </p>
-                    <button class="btn btn-primary" onclick="window.location.href='ContactUs.html'">Reach out to us now
-                      →</button>
-                  </div>
-                </div>
-        
-                <div class="col-md-5 position-relative text-end">
-                  <img src="Assets/heroimg.png" alt="Happy family" class="img-fluid" style="width: 590px; margin-top: 30px;">
-                  <div class="badge education">
-                    <ul class="custom-listb">
-                      <li data-icon="Assets/list.png">
-                        <div class="text-content1">
-                          <h5>Education</h5>
-                          <h6>loan</h6>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="badge home">
-                    <ul class="custom-listb">
-                      <li data-icon="Assets/star.png">
-                        <div class="text-content1">
-                          <h5>Home</h5>
-                          <h6>Loan</h6>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="badge business">
-                    <ul class="custom-listb">
-                      <li data-icon="Assets/vector.png">
-                        <div class="text-content1">
-                          <h5>Business</h5>
-                          <h6>Loan</h6>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-        
-                <!-- Right-side Image (Ellipse) -->
-                <div class="col-md-1 position-relative">
-                  <img src="Assets/Ellipse17.png" alt="Eclipse17" class="img-fluid7">
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class="carousel-item">
-          <section class="Eclipse3">
-            <div class="dot-bg">
-              <div class="row align-items-center">
-                <!-- Text Section -->
-                <div class="col-md-6 mb-4 mb-md-0 text-section1">
-                  <img id="img_logo" src="Assets/finx.png" alt="finx Icon" class="finx-icon" />
-                  <h1>
-                    Empower Support </br>with <span>Digital & Voice Self-Service </span>Solutions
-                  </h1>
-                  <p>
-                    Rupenet’s Finx AI Voice Bot instantly answers your customers' </br> most frequent questions, minimizing wait
-                    times
-                    and providing </br> a seamless, human-like experience. ✨
-                  </p>
-                  <button class="btn btn-primary " id="requestDemoBtn">Request a Demo →</button>
-                </div>
-                <!-- Image Section -->
-                <div class="col-md-5 position-relative">
-        
-                  <img src="Assets/heroimg1.png" alt="Happy girl" class="img-fluid1" style="width: 670px; margin-left: 20px;">
-                </div>
-                <div class="col-md-1 position-relative">
-                  <img src="Assets/Rectangle167.png" alt="rectangle" class="img-fluid4"
-                    style="width: 130px; padding-top: 10px; margin-top: 70px;">
-                </div>
-              </div>
-            </div>
-          </section>
+          </div>
 
+          </p>
         </div>
+      </div>
     </div>
+  </section>
+  <section class="row section-margin">
+    <div class="images">
+      <div class="card wow slideInLeft" data-wow-delay="0.5s">
+        <div class="wrapper">
+          <img src="../Assets/RPSolution.jpg " height="600px" alt="Rupenet Payment Solution " />
+          <div class="img-title">
+            Rupenet Payment Solution
+          </div>
 
+        </div>
+      </div>
+      <div class="card wow slideInRight" data-wow-delay="0.5s">
+        <div class="wrapper">
+          <img src="../Assets/finx_ind.jpg" height="600px" alt="FINX GenAI" />
+          <div class="img-title">
+            FINX GenAI
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<div class="video mt-5">
+  <div class="video-box col-md-12 ">
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/tBgAH0zw7Ss?autoplay=1&mute=1" title="Be a RupeNet Money Officer! Earn 20,000+ Monthly by providing services like, AEPS, UPI, BBPS, etc." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
   </div>
-  <!-- index -->
+  <div class="video-description col-md-12 ">
+  <h3><b>Ab Banking Point se Aage — Welcome to RupeNet Payments!</b></h3>
 
-  <!-- Logos Section -->
-<div class="logos logos-container">
-  <!-- First Row -->
-  <div class="logos-slide">
-    <img src="Assets/airtel.png" alt="airtel">
-    <img src="Assets/icici.png" alt="icici">
-    <img src="Assets/pnb.png" alt="pnb">
-    <img src="Assets/idbi.png" alt="idbi">
-    <img src="Assets/idfc.png" alt="idfc">
-    <img src="Assets/neogrowth.png" alt="neogrowth">
-    <img src="Assets/incred.png" alt="incred">
-    <img src="Assets/aeps.png" alt="Aeps">
-    <img src="Assets/razorpay.png" alt="razorpay">
-    <img src="Assets/payu.png" alt="payu">
-  </div>
+<p class="mt-4 mb-4">Looking to build a future-proof business with zero investment? Become a RupeNet Money Officer and turn your shop into a Smart Banking Point — earn commission, offer essential financial services, and make a real difference in your community.</p>
 
-  <!-- Second Row -->
-  <div class="logos-slide second-row">
-    <img src="Assets/neogrowth.png" alt="neogrowth">
-    <img src="Assets/incred.png" alt="incred">
-    <img src="Assets/aeps.png" alt="Aeps">
-    <img src="Assets/razorpay.png" alt="razorpay">
-    <img src="Assets/payu.png" alt="payu">
-    <img src="Assets/airtel.png" alt="airtel">
-    <img src="Assets/icici.png" alt="icici">
-    <img src="Assets/pnb.png" alt="pnb">
-    <img src="Assets/idbi.png" alt="idbi">
-    <img src="Assets/idfc.png" alt="idfc">  
+<div class="why-rupenet-desc">💼 Why Join RupeNet as a Money Officer?</div>
+<div class="why-rupenet-desc">✅ Start with ₹0 investment</div>
+<div class="why-rupenet-desc">✅ Earn up to ₹10 per transaction</div>
+<div class="why-rupenet-desc">✅ Instant Business Loan facility</div>
+<div class="why-rupenet-desc">✅ Partnered with top banks in India</div>
+<div class="why-rupenet-desc">✅ Make real social impact by serving rural communities</div>
   </div>
 </div>
 
-  <!--text & image section -->
-  <section class="content-1">
-    <div class="container py-5">
-      <div class="row align-items-center">
-        <!-- Text Section -->
-        <div class="col-md-6 mb-4 text-section5">
-          <h1>
-            Simplifying <span>Retail </br>Transactions</span> with FTTS
-          </h1>
-          <p>With FTTS, businesses can manage high transaction volumes, reduce operational complexity, and provide a
-            seamless customer experience.</p>
-          <ul class="custom-list">
-            <li data-icon="Assets/laptop.png">
-              <div class="text-content">
-                <h5>Multi-Channel Access:</h5>
-                <h6>Available on mobile, web, kiosks, and Android-</br>based devices.</h6>
-              </div>
-            </li>
-            <li data-icon="Assets/rocket.png">
-              <div class="text-content">
-                <h5>Real-Time Transaction Processing:</h5>
-                <h6>Ensures fast and reliable payments.</h6>
-              </div>
-            </li>
-            <li data-icon="Assets/lockkey.png">
-              <div class="text-content">
-                <h5>Enhanced Security & Compliance:</h5>
-                <h6>Built with end-to-end encryption and aligned </br> with regulatory standards.</h6>
-              </div>
-            </li>
-            <li data-icon="Assets/chart1.png">
-              <div class="text-content">
-                <h5>Scalable Infrastructure:</h5>
-                <h6>Handles high transaction volumes effortlessly.</h6>
-              </div>
-            </li>
-          </ul>
-        </div>
+  <div class="logos logos-container">
+    <!-- First Row -->
+    <div class="logos-slide">
+      <img src="Assets/airtel.png" alt="airtel">
+      <img src="Assets/icici.png" alt="icici">
+      <img src="Assets/pnb.png" alt="pnb">
+      <img src="Assets/idbi.png" alt="idbi">
+      <img src="Assets/idfc.png" alt="idfc">
+      <img src="Assets/neogrowth.png" alt="neogrowth">
+      <img src="Assets/incred.png" alt="incred">
+      <img src="Assets/aeps.png" alt="Aeps">
+      <img src="Assets/razorpay.png" alt="razorpay">
+      <img src="Assets/payu.png" alt="payu">
+    </div>
 
-        <!-- Image Section -->
-        <div class="col-md-6 position-relative">
-          <img src="Assets/genai.png" alt="Happy family" class="img-fluid5">
+
+  </div>
+    <!-- Logos Section -->
+
+
+  <div class="pb-5 team">
+
+    <div class="row g-4 justify-content-center no-margin">
+      <h4 class="text-primary text-center">Our Team</h4>
+
+      <div class="col wow fadeInUp" data-wow-delay="0.1s"
+        style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+        <div class="team-item rounded">
+          <div class="team-img">
+            <img src="Assets/RaniMuthaia(CEO).jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+            <!-- <div class="team-icon">
+              <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                  class="fas fa-share-alt"></i></a>
+              <div class="team-icon-share">
+                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                    class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                    class="fab fa-twitter"></i></a>
+                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i
+                    class="fab fa-instagram"></i></a>
+              </div>
+            </div> -->
+          </div>
+          <div class="team-content bg-dark text-center rounded-bottom p-4">
+            <div class="team-content-inner rounded-bottom">
+              <h4 class="text-white">Rani Muthaia</h4>
+              <p class="text-muted mb-0">CEO &amp; Founder</p>
+              <div class="justify-content-center logo-images-container">
+                <img src="Assets/in1.png" class="logo-images" alt="Image" height="15px">
+                <img src="Assets/in2.png" class="logo-images" alt="Image" height="15px">
+              </div>
+            </div>
+          </div>
         </div>
-  </section>
-  <div class="container" style="padding-bottom: 20px;">
-    <div class="gradient-section2">
-      <a href="ContactUs.html" class="btn">Contact us</a>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.3s"
+        style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+        <div class="team-item rounded">
+          <div class="team-img">
+            <img src="Assets/Devirajan(HR).jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+          </div>
+          <div class="team-content bg-dark text-center rounded-bottom p-4">
+            <div class="team-content-inner rounded-bottom">
+
+              <h4 class="text-white">Devirajan</h4>
+              <p class="text-muted mb-0">CPO</p>
+               <div class="justify-content-center logo-images-container">
+                  <img src="Assets/Punjab.png" class="logo-images" alt="Image" height="15px">
+                  <img src="Assets/Cognizant-Logo.png" class="logo-images" alt="Image" height="15px">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.5s"
+        style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+        <div class="team-item rounded">
+          <div class="team-img">
+            <img src="Assets/kannan narayanan.jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+          </div>
+          <div class="team-content bg-dark text-center rounded-bottom p-4">
+            <div class="team-content-inner rounded-bottom">
+              <h4 class="text-white">Kannan Narayanan</h4>
+              <p class="text-muted mb-0">COO</p>
+                <div class="justify-content-center logo-images-container">
+                  <img src="Assets/NPCI-Logo.png" class="logo-images" alt="Image" height="15px">
+                  <img src="Assets/icici.png" class="logo-images" alt="Image" height="15px">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.7s"
+        style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+        <div class="team-item rounded">
+          <div class="team-img">
+            <img src="Assets/devarajan M.jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+          </div>
+          <div class="team-content bg-dark text-center rounded-bottom p-4">
+            <div class="team-content-inner rounded-bottom">
+              <h4 class="text-white">Devarajan M</h4>
+              <p class="text-muted mb-0">Co-Founder &amp; Adviser</p>
+              <div class="justify-content-center logo-images-container">
+                <img src="Assets/in1.png" class="logo-images" alt="Image" height="15px">
+                <img src="Assets/in2.png" class="logo-images" alt="Image" height="15px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.7s"
+        style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+        <div class="team-item rounded">
+          <div class="team-img">
+            <img src="Assets/krishnan govindan.jpeg" class="img-fluid w-100 rounded-top" alt="Image">
+          </div>
+          <div class="team-content bg-dark text-center rounded-bottom p-4">
+            <div class="team-content-inner rounded-bottom">
+              <h4 class="text-white">Krishnan Govindan</h4>
+              <p class="text-muted mb-0">Adviser &amp; CISO</p>
+                <div class="justify-content-center logo-images-container">
+                  <img src="Assets/qrc.jpg" class="logo-images" alt="Image" height="15px">
+                  <img src="Assets/altimetric.jpg" class="logo-images" alt="Image" height="15px">
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <section class="wwe">
-    <!-- What We Offer Section -->
-    <section class="what-we-offer">
-      <div class="container-wwo">
-        <div class="header">
-          <div>
-            <h3>What We Offer</h3>
-          </div>
-          <div>
-            <a href="#">Let's explore ➡</a>
-          </div>
-        </div>
-        <div class="row gy-4 wwes">
-          <div class="col-md-3">
-            <div class="card h-100">
-              <a href="ftts.html">
-                <img src="Assets/provideloan.jpg" class="card-img-top" alt="Provide Loan" />
-              </a>
-              <p class="text-overlay">Provide </br> Loan</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card h-100">
-              <a href="index.html">
-                <img src="Assets/retailpayment.jpg" class="card-img-top" alt="Retail Payments" />
-              </a>
-              <p class="text-overlay">Retail</br>Payments</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card h-100">
-              <a href="finx.html">
-                <img src="Assets/aivoice.jpg" class="card-img-top" alt="AI Voice Assistant" />
-              </a>
-              <p class="text-overlay">AI Voice </br>Assistant</p>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card h-100">
-              <a href="aiml.html">
-                <img src="Assets/aiml.jpeg" class="card-img-top" alt="Service Loading" />
-              </a>
-              <p class="text-overlay">AI/ML </br>Solution</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-  </section>
-  <!-- Frequently Asked Questions Section -->
-  <section class="faqEclipse width: 100%" style="padding-top: 30px; padding-bottom: 40px;">
-    <div class="container">
-      <div class="faq">
-        <p class="faqp mt-3">Frequently Asked Question</p>
-        <div class="header">
-          <div>
-            <h3>Meet FTTS: Your Smart Solution - All Your
-              </br><span>Questions, Answered!</span></h3>
-          </div>
-          <div>
-            <a href="#">Let's explore ➡</a>
-          </div>
-        </div>
-      </div>
-      <div class="accordion">
-        <div class="accordion" id="faqAccordion">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqHeading1">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1"
-                aria-expanded="true" aria-controls="faqCollapse1">
-                What is FTTS?
-              </button>
-            </h2>
-            <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1"
-              data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                FTTS is a modern lending solution platform offering seamless
-                integration for financial institutions.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqHeading2">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
-                How does FTTS improve lending services?
-              </button>
-            </h2>
-            <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
-              data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                FTTS improves lending services by providing low-code APIs for
-                faster deployment and operational efficiency.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqHeading3">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                How can I integrate FTTS with my business?
-              </button>
-            </h2>
-            <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
-              data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                FTTS improves lending services by providing low-code APIs for
-                faster deployment and operational efficiency.
-              </div>
-            </div>
-          </div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqHeading4">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
-                Is FTTS secure for financial transactions?
-              </button>
-            </h2>
-            <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
-              data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Yes, FTTS ensures security with end-to-end encryption and
-                compliance with industry standards.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="faqHeading5">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
-                How does FTTS improve lending services?
-              </button>
-            </h2>
-            <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
-              data-bs-parent="#faqAccordion">
-              <div class="accordion-body">
-                Yes, FTTS ensures security with end-to-end encryption and
-                compliance with industry standards.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-    </div>
-    </div>
-  </section>
+
+
   </br>
   <!-- footer -->
   <footer class="footer">
     <div class="container-footer">
       <img src="Assets/logo.png" alt="RupeNet logo" class="logo" />
     </div>
+  
+
     <div class="container-footer">
       <div class="footer-section">
         <h3 class="title">Chennai Corporate Address</h3>
-        <p>Ground Floor, Section A,No.5 Elango St,
-           Vedachalam <br>Nagar, Ext, Sevelimedu Post,</br>
-           Kanchipuram,
-          Kancheepuram, Tamil Nadu, 631502</p>
+        <p>Ground Floor, Section A,No.5 Elango St<br>
+          Vedachalam Nagar<br>Ext, Sevelimedu Post</br>
+          Kanchipuram<br>
+          Kancheepuram<br> Tamil Nadu, 631502</p>
         <h3 class="title">Bengaluru Corporate Address</h3>
-        <p>193(IndiQube Opal), Paramahansa Yogananda Rd, <br>
-          Stage 2, Eshwara Layout,<br> Indiranagar, 
+        <p>193(IndiQube Opal)<br> Paramahansa Yogananda Rd<br>
+          Stage 2, Eshwara Layout<br> Indiranagar,
           Bengaluru,
           Karnataka
           560038</p>
         <p class="text">Copyright @ 2025.<br />
-         All right reserved.</p>
+          All right reserved.</p>
         <div class="footer-section">
           <form class="subscribe-form">
             <input type="email" placeholder="Enter your email" class="input-email" />
@@ -586,7 +367,8 @@
           <li><a href="finx.html">AI Voicebot</a></li>
           <li><a href="ftts.html">Lending</a></li>
           <li><a href="index.html">Micro ATM</a></li>
-          <li><a href="#">Mobile app</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.solution.rupenetpaymentbox&hl=en_IN">
+            Mobile app</a></li>
           <li><a href="Blogs.html">Blog</a></li>
 
         </ul>
@@ -611,7 +393,7 @@
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
   <!-- Popup Container -->
   <div id="popup" class="popup">
     <div class="popup-content">
@@ -672,7 +454,9 @@
       </div>
     </div>
   </div>
+
   <script>
+
     document.getElementById("requestDemoBtn").addEventListener("click", function () {
       document.getElementById("popup").style.display = "flex";
     });
@@ -688,7 +472,15 @@
         popup.style.display = "none";
       }
     });
+
   </script>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script type="text/javascript">
+  new WOW().init();
+</script>
 
 </html>
