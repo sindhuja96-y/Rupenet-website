@@ -762,3 +762,6 @@
 .text-white, .text-muted{
   text-wrap-mode: nowrap;
 }
+.banner{
+  background-size: cover;
+}
