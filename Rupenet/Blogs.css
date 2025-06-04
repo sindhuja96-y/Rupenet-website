@@ -1,20 +1,28 @@
 body {
-    font-family: "Plus Jakarta Sans", sans-serif !important;
-    background-color: #f8f9fa;
-  }
-  .blogcreate{
-    max-width: 1200px !important;
-  }
-  .bloghead{
-    font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  background-color: #f8f9fa;
+}
+.blogcreate {
+  max-width: 1200px !important;
+}
+.bloghead {
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 3rem;
   color: #181e4b;
   font-weight: 700;
   margin-top: 30px;
-  }
-.blogsubhead{
+}
+.blogsubhead {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 2rem;
+  color: #181e4b;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.blogsubsec {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.5rem;
   color: #181e4b;
   line-height: 1.2;
   margin-bottom: 20px;
@@ -26,45 +34,166 @@ body {
 }
 .post-area img {
   display: inline-block;
-  width: 1100px;
-  height: 600px;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
   border-radius: 5px;
   box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
 }
-  .section-title {
-    color: #14183e;
-    font-family: "Plus Jakarta Sans", sans-serif !important;
-    font-weight: 600;
-    line-height: 1.5;
-    font-size: 1.75rem;
-  }
-  .info-box p{
+.section-title {
+  color: #14183e;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 1.75rem;
+}
+.info-box p {
   color: #5e6282;
   font-family: "Plus Jakarta Sans", sans-serif !important;
   margin-bottom: 1rem;
   text-decoration: none;
   line-height: 1.5;
   font-weight: 400;
-  }
-  .info-box ul li{
+}
+.info-box ul li {
+  color: #5e6282;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.info-box ol li {
+  color: #5e6282;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.cta-btn {
+  font-size: 18px;
+  margin: 10px 5px;
+}
+.highlight {
+  color: #198754;
+  font-weight: bold;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  border: 1px solid #007bff;
+  background-color: #fff;
+  color: #007bff;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: #fff;
+  pointer-events: none;
+}
+.service-block {
+  background: #eef3ff;
+  border-left: 4px solid #0d6efd;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.earnings-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.earnings-table th,
+.earnings-table td {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.cta {
+  background-color: #0d6efd;
+  color: white;
+  padding: 14px 25px;
+  font-size: 18px;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.cta:hover {
+  background-color: #084298;
+  text-decoration: none;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #198754;
+}
+.service-block ul li {
+  color: #5e6282;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.pagination .btn.active {
+  background-color: #0d6efd;
+  color: white;
+}
+.blog3table thead {
+  color:  #14183e;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.blog3table tbody{
     color: #5e6282;
-    font-family: "Plus Jakarta Sans", sans-serif !important;
-    margin-bottom: 1rem;
-    line-height: 1.5;
-    font-weight: 400;
-  }
-  .info-box ol li{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.earnings-table tbody{
     color: #5e6282;
-    font-family: "Plus Jakarta Sans", sans-serif !important;
-    margin-bottom: 1rem;
-    line-height: 1.5;
-    font-weight: 400;
-  }
-  .cta-btn {
-    font-size: 18px;
-    margin: 10px 5px;
-  }
-  .highlight {
-    color: #198754;
-    font-weight: bold;
-  }
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.earnings-table thead {
+  color:  #14183e;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+} 
+.blog-content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: none;
+}
+
+.blog-content.show {
+  display: block;
+  opacity: 1;
+}
