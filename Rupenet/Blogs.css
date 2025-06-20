@@ -197,3 +197,6 @@ body {
   display: block;
   opacity: 1;
 }
+.word-space{
+  word-spacing: 0.15rem;
+}

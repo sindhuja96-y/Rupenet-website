@@ -625,11 +625,80 @@
     </section>
 
   </div>
+  <div id="blog5" class="container blogcreate blog-content">
+  <header class="text-center mb-5">
+    <h1 class="bloghead">A Story of Strength, Dignity, and Digital Empowerment</h1>
+
+  </header>
+
+
+<section class="info-box py-5 px-4" >
+  <div class="post-area text-center mb-4">
+    <img class="img-fluid rounded shadow-sm" src="Assets/B5image5.png" alt="onboarding_post" style="max-width: 100%; height: auto;">
+  </div>
+
+  <p class="mb-4">
+    In a remote village tucked away in Karnataka, where banking access was once a dream and opportunities were scarce, one man is quietly rewriting the script of resilience — one transaction at a time. Meet <strong>Anjinappa</strong>, a RupeNet Money Officer whose story isn’t just about earnings or digital tools, but about the undying human spirit.
+  </p>
+  <hr>
+
+  <h3 class="section-title mt-4">A Journey That Defied Expectations</h3>
+  <p class="word-space">
+Born with a disability in both legs, Anjinappa grew up with more limitations than most. In a world that often judged him for what he couldn't do, he dared to believe in what he could.
+When RupeNet reached his village, it wasn’t just another digital platform. It was a<strong> turning point</strong>.
+Armed with only a smartphone, a biometric device, and an unbreakable will, he became his village’s <strong>Money Officer</strong> — or as locals now say, “Money Officer Anjinappa.”
+  </p>
+  <hr>
+
+  <h3 class="section-title mt-4">Serving His Community with Heart and Purpose</h3>
+  <p class="word-space">
+    Today, Anjinappa runs a micro financial hub right from his modest home. Every morning, villagers line up — not just for cash, but for trust and support.
+
+  </p>
+  <ul class="mb-4">
+    <li>Pensioners withdraw monthly entitlements</li>
+    <li>Daily wage workers to access wages locally</li>
+    <li>Women recharge mobile phones and pay electricity bills</li>
+    <li>Villagers perform Aadhaar-based cash withdrawals (AEPS)</li>
+  </ul>
+  <p>He isn’t just processing transactions — <strong>He’s the lifeline of his village’s financial ecosystem.</strong></p>
+  <hr>
+
+  <h3 class="section-title mt-4">More Than a Money Officer</h3>
+  <p class="word-space">
+    Wearing his RupeNet T-shirt with pride, Anjinappa doesn’t stand on legs — he stands tall with <strong>courage, purpose, and resilience</strong>.
+“I’m not just earning. I’m changing lives — including mine,” he says with a calm smile.
+To his community, he is no longer seen through the lens of disability — but as an example of what’s possible when <strong> meets opportunity.</strong>
+
+  </p>
+  <hr>
+
+  <h3 class="section-title text-center mt-5 mb-4">Be Like Anjinappa — Join the RupeNet Mission</h3>
+  <p class="text-center mx-auto" style="max-width: 700px;">
+    This story isn’t just his. It’s a call to <strong>everyone</strong> — with or without physical limitations — to contribute to society, serve their community, and build a dignified life.
+    <br>All you need is your phone, your willpower, and RupeNet.
+  </p>
+
+  <div class="text-center mt-4 mb-5">
+    <ul class="list-unstyled mb-4">
+      <li>✅ Offer banking services</li>
+      <li>✅ Earn daily commissions</li>
+      <li>✅ Become your village’s digital leader</li>
+    </ul>
+    <a href="https://www.rupenet.com" class="btn btn-outline-primary btn-lg mb-2">🌐 Join us now</a><br>
+    <a href="https://bit.ly/rupenetdigitalpayments" class="btn btn-outline-dark btn-lg">📲 Download the App</a>
+  </div>
+</section>
+
+</div>
+
   <div class="pagination text-center mt-5 mb-5">
     <button class="btn btn-outline-secondary" onclick="loadBlog(1)">1</button>
     <button class="btn btn-outline-secondary" onclick="loadBlog(2)">2</button>
     <button class="btn btn-outline-secondary" onclick="loadBlog(3)">3</button>
     <button class="btn btn-outline-secondary" onclick="loadBlog(4)">4</button>
+        <button class="btn btn-outline-secondary" onclick="loadBlog(5)">5</button>
+
 
   </div>
 
@@ -728,7 +797,8 @@
           selectedBlog.style.display = "block";
           setTimeout(() => selectedBlog.classList.add("show"), 50);
           window.scrollTo({ top: 0, behavior: 'smooth' });
-        }, 500);
+         updateMetaTags(blogNumber);
+    }, 500);
       }
 
       // Highlight active button
@@ -745,6 +815,52 @@
         setTimeout(() => firstBlog.classList.add("show"), 50);
       }
     };
+  
+  const blogMeta = {
+    1: {
+      title: "Become a RupeNet Onboarding Partner",
+      description: "Earn ₹20,000+ monthly from your local area by joining RupeNet as an onboarding partner.",
+      keywords: "RupeNet onboarding partner, earn from home, fintech side income"
+    },
+    2: {
+      title: "Why RupeNet Payments is Built for Compliance",
+      description: "A secure fintech platform with Aadhaar-based KYC and OTPs to prevent money laundering.",
+      keywords: "RupeNet compliance, UIDAI KYC, AEPS secure platform"
+    },
+    3: {
+      title: "Start Your Own Digital Business with RupeNet",
+      description: "Become a Money Officer, offer AEPS and DMT services, and earn daily.",
+      keywords: "Digital banking India, AEPS business, fintech merchant"
+    },
+    4: {
+      title: "RupeNet First to Comply with UIDAI Biometric Rules",
+      description: "RupeNet adopts L1 fingerprint scanners and Face Authentication under UIDAI 2025 update.",
+      keywords: "UIDAI L1 compliance, Aadhaar Face Auth, RupeNet biometric"
+    },
+    5: {
+      title: "Anjinappa’s Journey – RupeNet’s Money Officer Breaking Barriers",
+      description: "Read how a differently-abled man in Karnataka became a fintech hero with RupeNet.",
+      keywords: "RupeNet Money Officer, AEPS Success Story, Disability and Entrepreneurship,Digital empowerment in rural India,Work from home banking agent,Aadhaar cash withdrawal agent,Earn from home digital India,Inclusive financial services,RupeNet merchant stories,Rural fintech hero"
+
+   }
+  };
+
+  function updateMetaTags(blogNumber) {
+    const meta = blogMeta[blogNumber];
+    if (!meta) return;
+
+    document.title = meta.title;
+
+    const metaDesc = document.querySelector("meta[name='description']");
+    const metaKeywords = document.querySelector("meta[name='keywords']");
+    const metaTitle = document.querySelector("meta[name='title']");
+
+    if (metaDesc) metaDesc.setAttribute("content", meta.description);
+    if (metaKeywords) metaKeywords.setAttribute("content", meta.keywords);
+    if (metaTitle) metaTitle.setAttribute("content", meta.title);
+  }
+
+
   </script>
 </body>
 
